@@ -26,6 +26,7 @@ public class Task3 {
                 System.out.println(ch + " - " + c);
             }
         }
+        System.out.println("-----------END OF TEST---------------");
         return charct.stream().map(Object::toString).collect(Collectors.toCollection(ArrayList::new));
     }
 
